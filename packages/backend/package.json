@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "description": "Backend to serverless fullstack notes tutorial",
+  "author": "George Bockari <bitwhys@gmail.com>",
+  "homepage": "https://github.com/bit-creative/fullstack-serverless#readme",
+  "license": "MIT",
+  "main": "lib/backend.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bit-creative/fullstack-serverless.git"
+  },
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "bugs": {
+    "url": "https://github.com/bit-creative/fullstack-serverless/issues"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.656.0",
+    "serverless-bundle": "^1.4.0",
+    "serverless-dotenv-plugin": "^2.3.2",
+    "serverless-offline": "^6.1.4"
+  },
+  "dependencies": {
+    "uuid": "7.0.3"
+  }
+}
